@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - EasyRentals Accounting</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .meta {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 30px;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        li {
+            margin: 8px 0;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    
+    <div class="meta">
+        <p><strong>Effective Date:</strong> January 24, 2025</p>
+        <p><strong>Last Updated:</strong> January 24, 2025</p>
+        <p><strong>Company:</strong> EasyRentals Inc</p>
+        <p><strong>Address:</strong> 600 B ST STE 300, SAN DIEGO, CA 92101</p>
+        <p><strong>Contact:</strong> alobosk@gmail.com</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>EasyRentals Inc ("we," "our," or "us") operates the EasyRentals Accounting integration application ("Software"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Software.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>The Software accesses your QuickBooks Online data only with your explicit authorization through OAuth 2.0. We collect the following types of information:</p>
+    
+    <h3>2.1 Accounting Data</h3>
+    <ul>
+        <li>Company information (name, address, EIN)</li>
+        <li>Chart of Accounts</li>
+        <li>Transactions (invoices, expenses, bills, payments, deposits, checks)</li>
+        <li>Journal entries</li>
+        <li>Account balances</li>
+    </ul>
+
+    <h3>2.2 Payment Data</h3>
+    <ul>
+        <li>Payment transactions</li>
+        <li>Payment methods</li>
+    </ul>
+
+    <h3>2.3 Authentication Data</h3>
+    <ul>
+        <li>OAuth access tokens and refresh tokens</li>
+        <li>Company realm ID (QuickBooks company identifier)</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use your information solely to:</p>
+    <ul>
+        <li>Provide accounting and compliance analysis services</li>
+        <li>Categorize and reclassify transactions</li>
+        <li>Generate compliance reports and tax estimates</li>
+        <li>Identify tax-deductible expenses</li>
+        <li>Flag compliance issues (1099 requirements, personal expenses, etc.)</li>
+        <li>Calculate tax estimates based on C-Corporation requirements</li>
+    </ul>
+
+    <h2>4. Data Storage</h2>
+    <p>All data is stored <strong>locally on your system</strong>. Specifically:</p>
+    <ul>
+        <li>OAuth tokens are stored in <code>tokens.json</code> on your local machine</li>
+        <li>Transaction data is processed in memory and not permanently stored</li>
+        <li>No data is transmitted to our servers or third-party services</li>
+        <li>All processing occurs locally on your computer</li>
+    </ul>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do <strong>not</strong> share, sell, rent, or disclose your data to third parties. Your data remains on your local system and is only accessed through the QuickBooks API with your authorization.</p>
+
+    <h2>6. Data Security</h2>
+    <p>We implement industry-standard security measures:</p>
+    <ul>
+        <li>OAuth 2.0 authentication (industry standard)</li>
+        <li>Secure token storage (local file system)</li>
+        <li>Automatic token refresh to maintain security</li>
+        <li>HTTPS communication with QuickBooks API</li>
+        <li>No data transmission to external servers</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li><strong>Access:</strong> View all data accessed by the Software</li>
+        <li><strong>Control:</strong> Revoke access at any time through QuickBooks Online settings</li>
+        <li><strong>Delete:</strong> Remove stored tokens by deleting the <code>tokens.json</code> file</li>
+        <li><strong>Disconnect:</strong> Disconnect the Software from QuickBooks at any time</li>
+    </ul>
+
+    <h2>8. Third-Party Services</h2>
+    <p>The Software integrates with:</p>
+    <ul>
+        <li><strong>QuickBooks Online (Intuit Inc.):</strong> Your use of QuickBooks Online is subject to Intuit's terms of service and privacy policy. We access your QuickBooks data only with your explicit authorization.</li>
+    </ul>
+    <p>We are not responsible for the privacy practices of third-party services.</p>
+
+    <h2>9. Data Retention</h2>
+    <p>Since all data is stored locally on your system:</p>
+    <ul>
+        <li>OAuth tokens are retained until you delete <code>tokens.json</code></li>
+        <li>Transaction data is not permanently stored by the Software</li>
+        <li>You control all data retention through your local file system</li>
+    </ul>
+
+    <h2>10. Children's Privacy</h2>
+    <p>The Software is not intended for use by individuals under the age of 18. We do not knowingly collect information from children.</p>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+
+    <h2>12. Compliance</h2>
+    <p>This application complies with:</p>
+    <ul>
+        <li>QuickBooks API terms of service</li>
+        <li>OAuth 2.0 security standards</li>
+        <li>Industry best practices for data security</li>
+    </ul>
+
+    <h2>13. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <p>
+        EasyRentals Inc<br>
+        600 B ST STE 300<br>
+        SAN DIEGO, CA 92101<br>
+        Email: alobosk@gmail.com
+    </p>
+
+    <h2>14. California Privacy Rights</h2>
+    <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect and the right to request deletion of your personal information. Since all data is stored locally on your system, you have full control over your data.</p>
+</body>
+</html>
